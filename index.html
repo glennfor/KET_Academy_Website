@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="KET Academy Website">
+    <meta name="keywords" content="KET Academy, Education, Online">
+    <meta name= "author" content="KET Acdemy">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="./assets/img/ket-favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!--MAIN template CSS File-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--Bootstrap CSS FIles-->
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap/css/bootstrap-grid.rtl.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap/css/bootstrap-reboot.rtl.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap/css/bootstrap-utilities.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap/css/bootstrap-utilities.rtl.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap/css/bootstrap.rtl.min.css">
+   
+     <!--JQuery Helper FIle-->
+    <script src="./assets/Jquery/jquery-3.6.0.min.js"></script>
+
+    <title>KET Academy</title>
+
+</head>
+<body>
+    <div id="loader">
+        <img src="./assets/img/gifs/book-anim-fast.gif" alt="">
+        <img src="./assets/img/gifs/Jumping-letters.gif" alt="">
+        <h1 class="logo "><a href="index.html"><span>KET </span>ACADEMY</a></h1>
+    </div>
+
+
+    <!-- =======Navigation Bar=============== -->
+
+    <header id="header" class="header">
+
+        <div class="container">
+            <!--name and logo-->
+            <!-- <img class = "logo" src="./assets/img/ket-logo-fixed.png" alt="KET Acdemy LOgo"> -->
+            <h1 class="logo "><a href="index.html"><span>KET </span>ACADEMY</a></h1>
+            <!--Nav bar list items-->
+            <nav class="navbar nav-desktop">
+                <ul class="nav-list-items">
+                    <li class="list-item active-list-item" tip="HOME"><a href="./index.html">🏡Home</a></li>
+                    <li class="list-item"  tip="ABOUT"><a href="./about.html">📋About</a></li>
+                    <li class="list-item"  tip="SERVICES"><a href="./services.html">🗼Serivces</a></li>
+                    <li class="list-item"  tip="TEAM|AMBASSADORS"><a href="./team.html">🤼‍♀️Team</a></li>
+                    <li class="list-item"  tip="LIBRARY" ><a href="./library.html">📚Library</a></li>
+                    <li class="list-item"  tip="TESTIMONIALS"><a href="./testimonials.html">🎤Testimonials</a></li>
+                    <li class="list-item"  tip="CONTACT"><a href="./contact.html">📞Contact</a></li>
+                </ul>
+                <!--<i class="bu bi-list"></i> -->
+            </nav>
+
+            <!--nav for mobie. Had to create this incase one 
+            mini/maximises their browser window
+            -->
+            <nav class="navbar mobile-nav">
+                
+                <ul class="nav-list-items">
+                    <li class="list-item active-list-item" tip="HOME"><a href="./index.html">🏡Home</a></li>
+                    <li class="list-item"  tip="ABOUT"><a href="./about.html">📋About</a></li>
+                    <li class="list-item"  tip="SERVICES"><a href="./services.html">🗼Serivces</a></li>
+                    <li class="list-item"  tip="TEAM|AMBASSADORS"><a href="./team.html">🤼‍♀️Team</a></li>
+                    <li class="list-item"  tip="LIBRARY" ><a href="./library.html">📚Library</a></li>
+                    <li class="list-item"  tip="TESTIMONIALS"><a href="./testimonials.html">🎤Testimonials</a></li>
+                    <li class="list-item"  tip="CONTACT"><a href="./contact.html">📞Contact</a></li>
+                </ul>
+                <!--<i class="bu bi-list"></i> -->
+            </nav>
+            
+            <div class="media-links-head">
+                <a href="https://www.twitter.com/AcademyKet" target="_blank" class="twitter"><i class="bu bi-twitter"></i></a>
+                <a href="https://www.facebook.com/KET-AcademyOrientation-107170228312584/" target="_blank" class="facebook"><i class="bu bi-facebook"></i></a>
+                <a href="https://www.instagram.com/ket.academy/" target="_blank" class="instagram"><i class="bu bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/77005269" target="_blank" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
+                <a href="https://www.youtube.com/c/KETAcademy" target="_blank" class="youtube"><i class="bu bi-youtube"></i></i></a>
+            </div>  
+
+            <i class="bu bi-list mobile-menu-toggle"></i>
+        </div>
+    </header>
+    
+
+    <main>
+
+
+        <!-- carousel layout / slide show -->
+
+        <section class="intro intro-slide" id="intro">
+
+            <!-- slide 1 -->
+            <div class="slide" id="activated-slide">
+                <img src="./assets/img/carousel/about-3.JPG" alt="">
+                <div class="text">
+                    <h1>Welcome to KET Academy.</h1>
+                    <p>
+                        📚Providing free educational resources and
+                        assistance for amelioration to all students.📝
+                    </p>
+                </div>
+            </div>
+
+            <!-- slide 2 -->
+            <div class="slide" >
+                <img src="./assets/img/carousel/about-8.JPG" alt="">
+                <div class="text">
+                    <h1>Welcome to KET Academy.</h1>
+                    <p>
+                        📚We are <b>A<sup>3</sup></b>. Free <b>ACCESS</b> to academic resources for <b>AMELIORATION</b> to <b>ALL</b>.📝
+                    </p>
+                </div>
+            </div>
+
+            <!-- slide 3 -->
+            <div class="slide">
+                <img src="./assets/img/carousel/about-nm.JPG" alt="">
+                <div class="text">
+                    <h1>Welcome to KET Academy.</h1>
+                    <p>
+                        📚Providing  educational access and
+                        assistance for amelioration to all.📝
+                    </p>
+                </div>
+            </div>
+
+            <!-- slide 4 -->
+            <div class="slide">
+                <img src="./assets/img/carousel/Isabel.jpg" alt="">
+                <div class="text">
+                    <h1>Welcome to KET Academy.</h1>
+                    <p>
+                        📚We are <b>A<sup>3</sup></b>. Free <b>ACCESS</b> to academic resources for <b>AMELIORATION</b> to <b>ALL</b>.📝
+                    </p>
+                </div>
+            </div>
+
+            <!-- slide 5 -->
+            <div class="slide">
+                <img src="./assets/img/carousel/about-5.JPG" alt="" class="carousel">
+                <div class="text">
+                    <h1>Welcome to KET Academy.</h1>
+                    <p>
+                        📚Providing  educational access and
+                        assistance for amelioration to all.📝
+                    </p>
+                </div>
+            </div>
+            
+            <div class="dots">
+                <span class="dot active-dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </section>
+
+        <section class="mentor-call">
+            <div class="container">
+                <div class="text-center" id="ket-call-to-action">
+                  <h3>Call To Action</h3>
+                  <p> 
+                    Are you a highly motivated person who deeply cares about the 
+                    development of our community especially in the educational sphere?
+                    Do you have some skills and knowledge you wish to pass on to others?
+                    Do you want to join a community of purpose minded people aiming at making
+                    our society a better place?
+
+                    Consider becoming an ambassador of KET academy.
+                    </p>
+                  <a class="call-button" href="https://docs.google.com/forms/d/1lfw4bSoGaXhTDcKipee_5b4ZSaPUN0DbkZoTeNZmqqY/edit?usp=sharing">Become An Ambassador</a>
+                </div>
+        
+            </div>
+        </section>
+
+        <section class="media-presence">
+            <div class="container">
+                <h3>Be Part of Our Online Presence.</h3>
+                <p>Join our various online forums to learn more about us, get access to our services and
+                    get in contact with our esteemed ambassadors.
+                </p>
+            </div>
+            <div class="media">
+                <div>
+                    <img src="./assets/img/services/csc-4.jpg" alt="">
+                    <a href="https://www.facebook.com/l.php?u=https%3A%2F%2Fapi.whatsapp.com%2Fsend%3Fphone%3D237679563542%26app%3Dfacebook%26entry_point%3Dpage_cta&h=AT1i4i7Du51Cekh0NBbPpfeNE5xS3q7hJqWOrIlftl1_aC5tKKmxJ2hphO0fSUXbgcXegPSlYp9AxIvGv9PlHW3Lr5mXrrGEFLz4yDReZL1pbtE_vnoynUspp31jjljQJNaqCfOOYZPHgpnocklYd1ERttHtMidbUw" target="_blank">Join Our Whatsapp Groups</a>
+                </div>
+                <div>
+                    <img src="./assets/img/services/csc-4.jpg" alt="">
+                    <a href="https:/t.me/+yPC92rD_H1VjYzk0" target="_blank">Join Our Telegram Channel</a>
+                </div>
+                <div>
+                    <img src="./assets/img/services/csc-4.jpg" alt="">
+                    <a href="https://www.linkedin.com/company/77005269" target="_blank">View Our LinkedIn Profile</a>
+                </div>
+                <div>
+                    <img src="./assets/img/services/csc-4.jpg" alt="">
+                    <a target="_blank"
+                    href="https://www.facebook.com/KET-AcademyOrientation-107170228312584/">Like Our Facebook Page</a>
+                </div>
+                <div>
+                    <img src="./assets/img/services/csc-4.jpg" alt="">
+                    <a href="https://www.instagram.com/ket.academy/" target="_blank">Follow Us on Instagram</a>
+                </div>
+                <div>
+                    <img src="./assets/img/services/csc-4.jpg" alt="">
+                    <a href="https://www.twitter.com/AcademyKet" target="_blank">Follow Us on twitter</a>
+                </div>
+                <div>
+                    <img src="./assets/img/services/csc-4.jpg" alt="">
+                    <a href="https://www.youtube.com/c/KETAcademy" target="_blank">Subscribe to Our Youtube Channel</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ section -->
+        <section class="faq-section"> 
+            <div class="container">
+            
+                <div class="faq-title">
+                    <h2>Frequently Asked Questions [FAQ]</h2>
+                    <p>These are questions other people have asked about us. In case you don't get an answer to your
+                        question, <a href="./contact.html" >send us a message</a>
+                    </p>
+                </div>
+
+                <div class="faq-list">
+                    <ul>
+                        <!--Question 1-->
+                        <li  class="faq-active">
+                            <article>
+                                <i class="bu bi-question-circle-fill icon-help"></i> 
+                                <a>What is KET Academy?</a>
+                                <i class="bu bi-caret-up-fill icon-show-hide"></i>
+                            </article>
+                            <div style="display: block">
+                                <p>
+                                    KET academy is a non-profit organisation that seeks to reform education in Cameroon. KET academy orientates, assists, mentors and support student in any area of academic purpose
+                                    pursuit that is of benefit to the community.
+                                </p>
+                            </div>
+                        </li>
+                        <!--Question 2-->
+                        <li>
+                            <article>
+                                <i class="bu bi-question-circle-fill icon-help"></i> 
+                                <a> How does KET Academy provide her services? </a>
+                                <i class="bu bi-caret-down-fill icon-show-hide"></i>
+                            </article>
+                            <div style="display: none">
+                                <p>
+                                    KET academy is maintained by a community of young visionary Cameroonians. These include students from acclaimed universities, schools, and institutions across the 
+                                    national territory. These ambassadors produce the academic resources and provide the services rendered by KET academy.
+                                   
+                                </p>
+                            </div>
+                        </li>
+                        <!--Question 3-->
+                        <li>
+                            <article>
+                            <i class="bu bi-question-circle-fill icon-help"></i> 
+                            <a>What requirements do I need and How do I become a mentor/Ambassador at KET Academy?</a>
+                            <i class="bu bi-caret-down-fill icon-show-hide"></i>
+                            </article>
+                            <div style="display: none">
+                                <p>
+                                    KET academy is quite strict on the category of people she incorporates. We encourage only people who are motivated to join us. You don't need to have any experience whatsoever because we train our ambassadors in 
+                                    teamwork and service before incorporating them. To join KET academy you may answer our <a href="#et-call-to-action">call to action</a>. We will carefully evaluate your responses
+                                    and if it aligns with KET academy's values, you are sure to be recruited. 
+                                </p>
+                            </div>
+                        </li>
+                        <!--Question 4-->
+                        <li>
+                            <article>
+                                <i class="bu bi-question-circle-fill icon-help"></i> 
+                                <a> How does KET Academy acquire funds to run the organisation?</a>
+                                <i class="bu bi-caret-down-fill icon-show-hide"></i>
+                            </article>
+                            <div style="display: none">
+                                <p>
+                                    KET academy is a <b>strict</b> non-profit organisation and therefore collects no payments whatsoever for the academic services and resources she provides. To maintain the organisation
+                                    and acquire useful material, KET academy relies on the generous donations of her leadership, ambassadors, other like-minded organisations and individuals
+                                    of good will. 
+                                </p>
+                            </div>
+                        </li>
+                        <!--Question 5-->
+                        <li>
+                            <article>
+                                <i class="bu bi-question-circle-fill icon-help"></i> 
+                                <a> How can I get in contact with KET Academy staff? </a>
+                                <i class="bu bi-caret-down-fill icon-show-hide"></i>
+                            </article>
+                            <div style="display: none">
+                                <p>
+                                    KET academy encourages users of her services as well as those seeking information to contact the organisation via her email or website.
+                                    However as if critically required, ambassadors' contact profile are available on the website.
+                                </p>
+                            </div>
+                        </li>
+                        <!--Question 6-->
+                        <li>
+                            <article>
+                                <i class="bu bi-question-circle-fill icon-help"></i> 
+                                <a> What is special about KET Academy?</a>
+                                <i class="bu bi-caret-down-fill icon-show-hide"></i>
+                            </article>
+                            <div style="display: none">
+                                <p>
+                                    KET academy is a one-of-a-kind organisation. Providing vital services in the most important sphere of development she is a critical contributor to the development of
+                                    the nations. Her free services targets universal benefit and she is also tranformational to the people that work there. Under the guidance of her mentor organisation
+                                    <a target="_blank" href="https://www.open-dreams.org">Open Dreams</a>, she envisions and is actively and steadfastly working towards securing the best education experience to students 
+                                    on a national scale. This is her unique way of contributing to the much-needed revolution of the educational system in Cameroon as well as development.
+                                </p>
+                            </div>
+                        </li>
+                        <!--Question 7-->
+                       
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="reports">
+            <div class="container">
+                <h2>Report a Learning Difficulty</h2>
+                <p>KET academy is dedicated to helping students in 
+                    all aspects of their education. If you have any difficulty
+                    or challenge of any sort with your studies or know someone who does,
+                    kindly send us a message to look into it. 
+                    
+                    <br>
+                    <a href="./contact.html#contact-form">Report a challenge</a>
+                </p>
+            </div>
+            <div class="container">
+                <h2>Suggest a lesson or teaching approach</h2>
+                <p>We at KET academy try our best to provide the best and most optimal academic
+                    resources and services. If you are also passionate about promoting
+                    and improving education in Cameroon, you might have some cool and unique ideas that will
+                    enable us render better educational services to students.
+
+                    <br>
+                    <a href="./contact.html#contact-form">Send us your Suggestion</a>
+
+                </p>
+            </div>
+            <div class="container">
+                <h2>Leave a testimonial</h2>
+
+                <p>
+                    The testimonies and reviews of students give us hope to continue and intensify what we do 
+                    and make us shine brighter in our domain to attract people, resources and opportunities that will
+                    enable us serve the educational commmunity greater and better.
+                    Have you benefitted from the resources and/or services provided by KET acdemy and 
+                    her ambassadors?
+                    <br>
+                    <a href="./contact.html#contact-form">Leave Us Your Experience</a>
+
+                </p>
+            </div>
+        </section>
+
+    </main>
+    
+
+
+    <!-- =========Footer============ -->
+    <footer class="footer" id="footer">
+        <div class="footer-items">
+            <div class="address">
+                <h1 class="logo "><a href="index.html"><span>KET </span>ACADEMY </a>
+                    <span class="blued"> <i style="font-size: 24px; " class="bi bi-geo-alt-fill"> </i> </span>
+                   </h1>
+                   
+                <!-- <h4>KET Academy <i class="bi bi-geo-alt-fill blued"> </i></h4> -->
+                <span>
+                <p>Chappelle Obili, <br>
+                   8687 Yaounde, <br>
+                   Centre Region, CMR
+                </p>
+                </span>
+                <p>
+                    📞Phone:<span>(+237) 6 79 56 35 42</span>  <br>
+                    📧Email: <span> <a href="mailto:ketacademy1@gmail.com">ketacademy1@gmail.com</a></span>
+                </p>
+            </div>
+            <div class="footer-list">
+                <h4>Useful Links <span class="blued">🧭</span></h4>
+                <ul class="footer-list-items">
+                    <li class="list-item active"><i class="bu bi-link"></i> <a href="./index.html"> Home</a>
+                    <li class="list-item"><i class="bu bi-link"></i> <a href="./about.html"> About</a></li>
+                    <li class="list-item"><i class="bu bi-link"></i> <a href="./services.html"></i> Services</a></li>
+                    <li class="list-item"><i class="bu bi-link"></i> <a href="./team.html"> Team|Ambassadors</a></li>
+                    <li class="list-item"><i class="bu bi-link"></i> <a href="./library.html"> Library</a></li>
+                    <li class="list-item"><i class="bu bi-link"></i> <a href="./testimonials.html"> Testimonials</a></li>
+                    <li class="list-item"><i class="bu bi-link"></i> <a href="./contact.html"> Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="newsletter">
+                <h4>Join Our Newsletter <span class="blued">🔥</span></h4>
+                    <p>Get frequent updates on opportunities and study material</p>
+                <form 
+                 class= "needs-validation d-flex"
+                 name="gform" id="gform" enctype="text/plain"
+                 action="https://docs.google.com/forms/d/e/1FAIpQLSdLM8d3vGut4fxCG2zDLJvlShs_PL1oeIFgBg1U7ARkrJoUtQ/formResponse?" target = "hidden_iframe" 
+                 onsubmit="submitted=true;"
+                 >
+                    <input type="email" placeholder="Enter Email..." 
+                        id="entry.941264948"
+                        name="entry.941264948"
+                        required>
+                    <input class="btn btn-primary" id="ent-111" type="submit" value="🚀Subscribe">
+                </form>
+                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+                <script type="text/javascript">var submitted=false;</script>
+                <script type="text/javascript">
+                    $('#gform').on('submit', function(e) {
+                      $("#ent-111").css("color", " rgb(6, 160, 100)")
+                      $("#ent-111").css("background", "#fff")
+                      $("#ent-111").val("Subscribed✨")
+                      $('#gform #ent-111').prop("disabled", true)
+                      });
+                </script>
+
+            </div>
+        </div>
+        <hr>
+        <div class="bottom-footer">
+            <div class="copyright">
+                &copy;Copyright  <a href="">KET Academy</a> @ 2021. All rights reserved. <br>
+                Designed by <a href="#">KET Academy#CSE</a>
+            </div>
+            <!--Social media Handles-->
+            <div class="media-links d-flex">
+                <a href="https://www.twitter.com/AcademyKet" target="_blank" class="twitter"><i class="bu bi-twitter"></i></a>
+                <a href="https://www.facebook.com/KET-AcademyOrientation-107170228312584/" target="_blank" class="facebook"><i class="bu bi-facebook"></i></a>
+                <a href="https://www.instagram.com/ket.academy/" target="_blank" class="instagram"><i class="bu bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/77005269" target="_blank" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
+                <a href="https://www.youtube.com/c/KETAcademy" target="_blank" class="youtube"><i class="bu bi-youtube"></i></i></a>
+            </div>        
+          
+        </div>
+    </footer>
+    <div id="back-to-top">
+        <a href="#"><i class="bu bi-arrow-up-circle-fill"></i></a>
+    </div>
+</body>
+
+
+<!--Main template Javascript-->
+<script src="./assets/js/main.js"></script>
+
+<!--Boostrap Helper Files-->
+<script src="./assets/bootstrap/bootstrap/js/bootstrap.min.js"></script>
+<script src="./assets/bootstrap/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="./assets/bootstrap/bootstrap/js/bootstrap.esm.min.js"></script>
+
+</html>

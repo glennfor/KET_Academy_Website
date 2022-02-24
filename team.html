@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="KET Academy Website">
+    <meta name="keywords" content="KET Academy, Education, Online">
+    <meta name= "author" content="KET Acdemy">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="./assets/img/ket-favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!--MAIN template CSS File-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--Bootstrap CSS FIles-->
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap/css/bootstrap-grid.rtl.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap/css/bootstrap-reboot.rtl.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap/css/bootstrap-utilities.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap/css/bootstrap-utilities.rtl.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap/css/bootstrap.rtl.min.css">
+   
+     <!--JQuery Helper FIle-->
+    <script src="./assets/Jquery/jquery-3.6.0.min.js"></script>
+
+    <title>KET Academy</title>
+
+</head>
+<body>
+    <div id="loader">
+        <img src="./assets/img/gifs/book-anim-fast.gif" alt="">
+        <img src="./assets/img/gifs/Jumping-letters.gif" alt="">
+        <h1 class="logo "><a href="index.html"><span>KET </span>ACADEMY</a></h1>
+    </div>
+
+
+    <!-- =======Navigation Bar=============== -->
+
+    <header id="header" class="header">
+
+        <div class="container">
+            <!--name and logo-->
+            <!-- <img class = "logo" src="./assets/img/ket-logo-fixed.png" alt="KET Acdemy LOgo"> -->
+            <h1 class="logo "><a href="index.html"><span>KET </span>ACADEMY</a></h1>
+            <!--Nav bar list items-->
+            <nav class="navbar nav-desktop">
+                <ul class="nav-list-items">
+                    <li class="list-item" tip="HOME"><a href="./index.html">🏡Home</a></li>
+                    <li class="list-item"  tip="ABOUT"><a href="./about.html">📋About</a></li>
+                    <li class="list-item"  tip="SERVICES"><a href="./services.html">🗼Serivces</a></li>
+                    <li class="list-item active-list-item"  tip="TEAM|AMBASSADORS"><a href="./team.html">🤼‍♀️Team</a></li>
+                    <li class="list-item"  tip="LIBRARY" ><a href="./library.html">📚Library</a></li>
+                    <li class="list-item"  tip="TESTIMONIALS"><a href="./testimonials.html">🎤Testimonials</a></li>
+                    <li class="list-item"  tip="CONTACT"><a href="./contact.html">📞Contact</a></li>
+                </ul>
+                <!--<i class="bu bi-list"></i> -->
+            </nav>
+
+            <!--nav for mobie. Had to create this incase one 
+            mini/maximises their browser window
+            -->
+            <nav class="navbar mobile-nav">
+                <ul class="nav-list-items">
+                    <li class="list-item" tip="HOME"><a href="./index.html">🏡Home</a></li>
+                    <li class="list-item"  tip="ABOUT"><a href="./about.html">📋About</a></li>
+                    <li class="list-item"  tip="SERVICES"><a href="./services.html">🗼Serivces</a></li>
+                    <li class="list-item active-list-item"  tip="TEAM|AMBASSADORS"><a href="./team.html">🤼‍♀️Team</a></li>
+                    <li class="list-item"  tip="LIBRARY" ><a href="./library.html">📚Library</a></li>
+                    <li class="list-item"  tip="TESTIMONIALS"><a href="./testimonials.html">🎤Testimonials</a></li>
+                    <li class="list-item"  tip="CONTACT"><a href="./contact.html">📞Contact</a></li>
+                </ul>
+                <!--<i class="bu bi-list"></i> -->
+            </nav>
+            
+            <div class="media-links-head">
+                <a href="https://www.twitter.com/AcademyKet" target="_blank" class="twitter"><i class="bu bi-twitter"></i></a>
+                <a href="https://www.facebook.com/KET-AcademyOrientation-107170228312584/" target="_blank" class="facebook"><i class="bu bi-facebook"></i></a>
+                <a href="https://www.instagram.com/ket.academy/" target="_blank" class="instagram"><i class="bu bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/77005269" target="_blank" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
+                <a href="https://www.youtube.com/c/KETAcademy" target="_blank" class="youtube"><i class="bu bi-youtube"></i></i></a>
+            </div>  
+
+            <i class="bu bi-list mobile-menu-toggle"></i>
+        </div>
+    </header>
+    
+    <!-- =========== Introduction section: carousel-->
+   <section id="team">
+       <div class="team-expo">
+            <h2>The KET Academy Team</h2>
+            <p>
+                We are a group of visionary selfless indiviaduals who wish to see a positive change in our
+                education system and promote development in our country, Cameroon. To this cause, we dedicate our resources 
+                and efforts to simplifying academics for students all over Cameroon.
+            </p>
+       </div>
+
+       <div class="amb-title">
+           <h2>Meet Our Team of Ambassadors and Mentors.</h2>
+       </div>
+
+        <div class="ket-team">
+
+            <!-- Kinlo Ephraim-->
+            <div class="team-member">
+                <div class="container">
+                    <div class="img-box">
+                        <img src="./assets/img/team/KinloE.jpg" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h4>Kinlo Ephraim T.</h4>
+                        <span>Prospective University Student</b> </span>
+                        <hr width="50%" margin="2px">
+                        <span class="role">Founder KET</span>
+                        <span class="role">Facilitator: Math, Fmath &amp; Phy</span>
+                        <div class="social">
+                            <a href="https://www.twitter.com/home" class="twitter"><i class="bu bi-twitter"></i></a>
+                            <a href="https://www.facebook.com/kinlo.ephraim/" class="facebook"><i class="bu bi-facebook"></i></a>
+                            <a href="https://www.instagram.com/kinloephraim/" class="instagram"><i class="bu bi-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/kinlo-ephraim-tangiri-a70113218/" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+
+            <!--Ronald Kamaha-->
+            <div class="team-member">
+                <div class="container">
+                    <div class="img-box">
+                        <img src="./assets/img/team/RonaldParfait.jpeg" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h4>Kamaha Ronald Parfait</h4>
+                        <span>Prospective University Student</span>
+                        <hr width="50%" margin="2px">
+                        <span class="role">HOD KET Chemistry</span>
+                        <span class="role">Facilitator: Chemistry &amp; Maths</span>
+                        <div class="social">
+                            <a href="#" class="twitter"><i class="bu bi-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bu bi-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bu bi-envelope"></i></a>
+                            <a href="#" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <!--Niassan Anushka-->
+            <div class="team-member">
+                <div class="container">
+                    <div class="img-box">
+                        <img src="./assets/img/team/Anushka.jpeg" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h4>Niassan K. Anushka</h4>
+                        <span>Prospective University Student</span>
+                        <!-- <span>Student at <b>University of Buea</b> </span> -->
+                        <hr width="50%" margin="2px">
+                        <span class="role">HOD KET Chemistry</span>
+                        <span class="role">Facilitator: Chemistry</span>
+                        <div class="social">
+                            <a href="#" class="twitter"><i class="bu bi-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bu bi-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bu bi-envelope"></i></a>
+                            <a href="#" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <!--Vanessa Logan-->
+            <div class="team-member">
+                <div class="container">
+                    <div class="img-box">
+                        <img src="./assets/img/team/VanessaLogan.jpg" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h4>Vanessa Logan A.</h4>
+                        <span>Prospective University Student </span>
+                        <hr width="50%" margin="2px">
+                        <span class="role">HOD KET ICT</span>
+                        <span class="role">Facilitator: ICT &amp; Chemistry</span>
+                        <div class="social">
+                            <a href="#" class="twitter"><i class="bu bi-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bu bi-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bu bi-envelope"></i></a>
+                            <a href="#" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <!--Mbwaye Roy-->
+            <div class="team-member">
+                <div class="container">
+                    <div class="img-box">
+                        <img src="./assets/img/team/MbwayeRoy.jpg" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h4>Mbwaye Roy N.</h4>
+                        <span>Prospective University Student</span>
+                        <hr width="50%" margin="2px">
+                        <span class="role">HOD KET Computer Science</span>
+                        <span class="role">Facilitator: Comp. Sci. &amp; Math</span>
+                        <div class="social">
+                            <a href="#" class="twitter"><i class="bu bi-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bu bi-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bu bi-envelope"></i></a>
+                            <a href="#" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <!--Nfor Glen-->
+            <div class="team-member">
+                <div class="container">
+                    <div class="img-box">
+                        <img src="./assets/img/team/NforGlen2.jpg" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h4>Nfor Glen Y.</h4>
+                        <span>Prospective University Student</span>
+                        <hr width="50%" margin="2px">
+                        <span class="role">HOD KET Computer Science</span>
+                        <span class="role">Facilitator: Comp. Sci., Math &amp; Phy.</span>
+                        <div class="social">
+                            <a href="#" class="twitter"><i class="bu bi-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bu bi-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bu bi-whatsapp"></i></a>
+                            <a href="#" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <!--Winnie Vallonia-->
+            <div class="team-member">
+                <div class="container">
+                    <div class="img-box">
+                        <img src="./assets/img/team/Winnie Vallonia.jpeg" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h4>Nna Winnie Vallonia</h4>
+                        <span>Student at <b>Franky C.H.S Y'de</b> </span>
+                        <hr width="50%" margin="2px">
+                        <span class="role">KET S. Media Manager</span>
+                        <span class="role">Facilitator: Chemistry &amp; Counselling</span>
+                        <div class="social">
+                            <a href="#" class="twitter"><i class="bu bi-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bu bi-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bu bi-envelope"></i></a>
+                            <a href="#" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <!--Tasang Lesley-->
+            <div class="team-member">
+                <div class="container">
+                    <div class="img-box">
+                        <img src="./assets/img/team/TasangLesley.jpeg" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h4>Tasang Lesley N.</h4>
+                        <span> Student at <b>NASPW Yaounde</b></span>
+                        <hr width="50%" margin="2px">
+                        <span class="role">KET Phy Dep't</span>
+                        <span class="role">Facilitator: Phy &amp; Math</span>
+                        <div class="social">
+                            <a href="#" class="twitter"><i class="bu bi-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bu bi-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bu bi-envelope"></i></a>
+                            <a href="#" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <!--Tonlieu Nyetewoue Alain Jorel-->
+            <div class="team-member">
+                <div class="container">
+                    <div class="img-box">
+                        <img src="./assets/img/team/TonlieAlian.jpeg" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h4>Tonlieu N. Alain Jorel</h4>
+                        <span>Student at <b>GBHS Etoug-Egbe</b> </span>
+                        <hr width="50%" margin="2px">
+                        <span class="role">KET Math Dep't</span>
+                        <span class="role">Facilitator: Math &amp; Biology</span>
+                        <div class="social">
+                            <a href="#" class="twitter"><i class="bu bi-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bu bi-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bu bi-envelope"></i></a>
+                            <a href="#" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+             <!-- Kinlo Maimo-->
+             <div class="team-member">
+                <div class="container">
+                    <div class="img-box">
+                        <img src="./assets/img/team/KinloMaimo.jpg" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h4>Kinlo Maimo Floribel</h4>
+                        <span>University Student</b> </span>
+                        <hr width="50%" margin="2px">
+                        <span class="role">KET HOD Further Maths</span>
+                        <span class="role">Facilitator: Phy, Fmath &amp; Math</span>
+                        <div class="social">
+                            <a href="#" class="twitter"><i class="bu bi-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bu bi-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bu bi-envelope"></i></a>
+                            <a href="#" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <!--Femba Isabel-->
+            <div class="team-member">
+                <div class="container">
+                    <div class="img-box">
+                        <img src="./assets/img/team/Isabel.jpg" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h4>Femba Isabel Y.</h4>
+                        <span> Prospectuve University Student</span>
+                        <hr width="50%" margin="2px">
+                        <span class="role">HOD KET Commercial </span>
+                        <span class="role">Facilitator: Commerce &amp; Econs</span>
+                        <div class="social">
+                            <a href="#" class="twitter"><i class="bu bi-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bu bi-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bu bi-envelope"></i></a>
+                            <a href="#" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <!--Joshua-->
+            <div class="team-member">
+                <div class="container">
+                    <div class="img-box">
+                        <img src="./assets/img/team/Joshua.jpg" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h4>Joshua N.</h4>
+                        <span>Student at <b>GBHS Etoug-Egbe</b> </span>
+                        <hr width="50%" margin="2px">
+                        <span class="role">HOD KET ICT</span>
+                        <span class="role">Facilitator: Comp. Sci. &amp; ICT</span>
+                        <div class="social">
+                            <a href="#" class="twitter"><i class="bu bi-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bu bi-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bu bi-envelope"></i></a>
+                            <a href="#" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <!--Yinkfu Brian Bismark-->
+            <div class="team-member">
+                <div class="container">
+                    <div class="img-box">
+                        <img src="./assets/img/team/" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h4>Yinkfu Brian Bismark</h4>
+                        <span>University Student</span>
+                        <hr width="50%" margin="2px">
+                        <span class="role">KET Biology Dep't</span>
+                        <span class="role">Facilitator: Biology &amp; Chem</span>
+                        <div class="social">
+                            <a href="#" class="twitter"><i class="bu bi-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bu bi-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bu bi-envelope"></i></a>
+                            <a href="#" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <!--Munkeng Hilda Nformi-->
+            <div class="team-member">
+                <div class="container">
+                    <div class="img-box">
+                        <img src="./assets/img/team/Munkeng Hilda Nformi.jpeg" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h4>Munkeng Hilda Nformi</h4>
+                        <span> <b>SENTII Yd'e</b> , BSc. <b>Geo</b></span>
+                        <hr width="50%" margin="2px">
+                        <span class="role">HOD KET Counselling</span>
+                        <span class="role">Facilitator: Geog &amp; Geol</span>
+                        <div class="social">
+                            <a href="#" class="twitter"><i class="bu bi-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bu bi-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bu bi-envelope"></i></a>
+                            <a href="#" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <!--ETENGENENG ONEKE KELVIN OJONG-->
+            <div class="team-member">
+                <div class="container">
+                    <div class="img-box">
+                        <img src="./assets/img/team/EtengenengKelvin.jpg" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h4>Etengeneng O. Kelvin</h4>
+                        <span>University Student</span>
+                        <hr width="50%" margin="2px">
+                        <span class="role">HOD KET Biology</span>
+                        <span class="role">Facilitator: Biology &amp; Research</span>
+                        <div class="social">
+                            <a href="#" class="twitter"><i class="bu bi-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bu bi-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bu bi-envelope"></i></a>
+                            <a href="#" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <!--Alphonse Nyuikonghe-->
+            <div class="team-member">
+                <div class="container">
+                    <div class="img-box">
+                        <img src="./assets/img/team/Alphonse Nyuikonghe.jpeg" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h4>Alphonse Nyuikonghe</h4>
+                        <span>Student at <b>ENSTP </b></span>
+                        <hr width="50%" margin="2px">
+                        <span class="role">KET Math Dep't </span>
+                        <span class="role">Facilitator: Math &amp; Phy</span>
+                        <div class="social">
+                            <a href="#" class="twitter"><i class="bu bi-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bu bi-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bu bi-envelope"></i></a>
+                            <a href="#" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <!--Asonglefac Synthia ZIJONG-->
+            <div class="team-member">
+                <div class="container">
+                    <div class="img-box">
+                        <img src="./assets/img/team/" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h4>Asonglefac Synthia Z.</h4>
+                        <span>Univeristy Student</b> </span>
+                        <hr width="50%" margin="2px">
+                        <span class="role">KET Math Dep't</span>
+                        <span class="role">Facilitato: Math &amp; Phy</span>
+                        <div class="social">
+                            <a href="#" class="twitter"><i class="bu bi-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bu bi-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bu bi-envelope"></i></a>
+                            <a href="#" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <!-- Lobe Franck Bryan Noé-->
+            <div class="team-member">
+                <div class="container">
+                    <div class="img-box">
+                        <img src="./assets/img/team/Lobe Franck Bryan Noé.jpg" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h4>Lobe Franck Bryan</h4>
+                        <span>Student at <b> B. H. I. S. T.  Y'de</b> </span>
+                        <hr width="50%" margin="2px">
+                        <span class="role">KET Chem Dep't</span>
+                        <span class="role">Facilitator: Chemistry &amp; Math</span>
+                        <div class="social">
+                            <a href="#" class="twitter"><i class="bu bi-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bu bi-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bu bi-envelope"></i></a>
+                            <a href="#" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            
+            <!-- Bintum Asheri L.-->
+            <div class="team-member">
+                <div class="container">
+                    <div class="img-box">
+                        <img src="./assets/img/team/BintumAsheri.jpg" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h4>Bintum Asheri L.</h4>
+                        <span>Prospective University Student</b> </span>
+                        <hr width="50%" margin="2px">
+                        <span class="role">KET Chem Dep't</span>
+                        <span class="role">Facilitator: Bio &amp; Chem</span>
+                        <div class="social">
+                            <a href="#" class="twitter"><i class="bu bi-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bu bi-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bu bi-envelope"></i></a>
+                            <a href="#" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+             <!-- Kumo Walters Nshom-->
+            <div class="team-member">
+                <div class="container">
+                    <div class="img-box">
+                        <img src="./assets/img/team/Kumo Walters Nshom.jpeg" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h4>Kumo Walters Nshom</h4>
+                        <span>BSc <b>Sociology</b> </span>
+                        <hr width="50%" margin="2px">
+                        <span class="role">HOD KET Counselling</span>
+                        <span class="role">Facilitator: History &amp; Philosphy</span>
+                        <div class="social">
+                            <a href="#" class="twitter"><i class="bu bi-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bu bi-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bu bi-envelope"></i></a>
+                            <a href="#" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+             <!-- Ajamah Godlove Nkemajah -->
+             <div class="team-member">
+                <div class="container">
+                    <div class="img-box">
+                        <img src="./assets/img/team/Ajamah Godlove Nkemajah.jpg" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h4>Ajamah Godlove N.</h4>
+                        <span>Prospective University Student </span>
+                        <hr width="50%" margin="2px">
+                        <span class="role">KET Comp. Sci. Dep't</span>
+                        <span class="role">Facilitator: Math &amp; Comp. Sci.</span>
+                        <div class="social">
+                            <a href="#" class="twitter"><i class="bu bi-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bu bi-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bu bi-envelope"></i></a>
+                            <a href="#" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+             <!-- Mbong Vanistelroy Dobgima-->
+             <div class="team-member">
+                <div class="container">
+                    <div class="img-box">
+                        <img src="./assets/img/team/Mbong Vanistelroy Dobgima.jpg" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h4>Mbong Vanistelroy D.</h4>
+                        <span>Student at <b>University of D'la</b> </span>
+                        <hr width="50%" margin="2px">
+                        <span class="role">HOD KET Econs</span>
+                        <span class="role">Facilitator: Econs,BMath, &amp; Commerce</span>
+                        <div class="social">
+                            <a href="#" class="twitter"><i class="bu bi-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bu bi-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bu bi-envelope"></i></a>
+                            <a href="#" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+
+             <!-- Deric-->
+             <div class="team-member">
+                <div class="container">
+                    <div class="img-box">
+                        <img src="./assets/img/team/Deric.jpeg" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h4>Nkengbeza Derick</h4>
+                        <span>Prospective University Student</b> </span>
+                        <hr width="50%" margin="2px">
+                        <span class="role">KET Phy Dep't</span>
+                        <span class="role">Facilitator: Phy, Fmath &amp; Math</span>
+                        <div class="social">
+                            <a href="#" class="twitter"><i class="bu bi-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bu bi-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bu bi-envelope"></i></a>
+                            <a href="#" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+
+
+        </div>
+    </section>
+
+      <!-- =========Footer============ -->
+      <footer class="footer" id="footer">
+        <div class="footer-items">
+            <div class="address">
+                <!-- <h1 class="logo "><a href="index.html"><span>KET </span>ACADEMY </a>
+                    <span class="blued"> <i style="font-size: 24px;" class="bi bi-geo-alt-fill blued"> </i> </span>
+                   </h1>
+                    -->
+                <h4>KET Academy <i class="bi bi-geo-alt-fill blued"> </i></h4>
+                <span>
+                <p>Chappelle Obili, <br>
+                   8687 Yaounde, <br>
+                   Centre Region, CMR
+                </p>
+                </span>
+                <p>
+                    📞Phone:<span>(+237)6 79 56 35 42</span>  <br>
+                    📧Email: <span> <a href="mailto:ketacademy1@gmail.com">ketacademy1@gmail.com</a></span>
+                </p>
+            </div>
+            <div class="footer-list">
+                <h4>Useful Links <span class="blued">🧭</span></h4>
+                <ul class="footer-list-items">
+                    <li class="list-item active"><i class="bu bi-link"></i> <a href="./index.html"> Home</a>
+                    <li class="list-item"><i class="bu bi-link"></i> <a href="./about.html"> About</a></li>
+                    <li class="list-item"><i class="bu bi-link"></i> <a href="./services.html"></i> Services</a></li>
+                    <li class="list-item"><i class="bu bi-link"></i> <a href="./team.html"> Team|Ambassadors</a></li>
+                    <li class="list-item"><i class="bu bi-link"></i> <a href="./library.html"> Library</a></li>
+                    <li class="list-item"><i class="bu bi-link"></i> <a href="./testimonials.html"> Testimonials</a></li>
+                    <li class="list-item"><i class="bu bi-link"></i> <a href="./contact.html"> Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="newsletter">
+                <h4>Join Our Newsletter <span class="blued">🔥</span></h4>
+                    <p>Get frequent updates on opportunities and study material</p>
+                    <form 
+                    class= "needs-validation d-flex"
+                    name="gform" id="gform" enctype="text/plain"
+                    action="https://docs.google.com/forms/d/e/1FAIpQLSdLM8d3vGut4fxCG2zDLJvlShs_PL1oeIFgBg1U7ARkrJoUtQ/formResponse?" target = "hidden_iframe" 
+                    onsubmit="submitted=true;"
+                    >
+                       <input type="email" placeholder="Enter Email..." 
+                           id="entry.941264948"
+                           name="entry.941264948"
+                           required>
+                       <input class="btn btn-primary" id="ent-111" type="submit" value="🚀Subscribe">
+                   </form>
+                   <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+                   <script type="text/javascript">var submitted=false;</script>
+                   <script type="text/javascript">
+                       $('#gform').on('submit', function(e) {
+                         $("#ent-111").css("color", " rgb(6, 160, 100)")
+                         $("#ent-111").css("background", "#fff")
+                         $("#ent-111").val("Subscribed✨")
+                         $('#gform #ent-111').prop("disabled", true)
+                         });
+                   </script>
+            </div>
+        </div>
+        <hr>
+        <div class="bottom-footer">
+            <div class="copyright">
+                &copy;Copyright  <a href="">KET Academy</a> @ 2021. All rights reserved. <br>
+                Designed by <a href="#">KET Academy#CSE</a>
+            </div>
+            <!--Social media Handles-->
+            <div class="media-links d-flex">
+                <a href="https://www.twitter.com/AcademyKet" target="_blank" class="twitter"><i class="bu bi-twitter"></i></a>
+                <a href="https://www.facebook.com/KET-AcademyOrientation-107170228312584/" target="_blank" class="facebook"><i class="bu bi-facebook"></i></a>
+                <a href="https://www.instagram.com/ket.academy/" target="_blank" class="instagram"><i class="bu bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/77005269" target="_blank" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
+                <a href="https://www.youtube.com/c/KETAcademy" target="_blank" class="youtube"><i class="bu bi-youtube"></i></i></a>
+            </div>        
+          
+        </div>
+    </footer>
+    <div id="back-to-top">
+        <a href="#"><i class="bu bi-arrow-up-circle-fill"></i></a>
+    </div>
+</body>
+
+
+<!--Main template Javascript-->
+<script src="./assets/js/main.js"></script>
+
+<!--Boostrap Helper Files-->
+<script src="./assets/bootstrap/bootstrap/js/bootstrap.min.js"></script>
+<script src="./assets/bootstrap/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="./assets/bootstrap/bootstrap/js/bootstrap.esm.min.js"></script>
+
+</html>

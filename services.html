@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="KET Academy Website">
+    <meta name="keywords" content="KET Academy, Education, Online">
+    <meta name= "author" content="KET Acdemy">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="./assets/img/ket-favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!--MAIN template CSS File-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--Bootstrap CSS FIles-->
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap/css/bootstrap-grid.rtl.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap/css/bootstrap-reboot.rtl.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap/css/bootstrap-utilities.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap/css/bootstrap-utilities.rtl.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap/css/bootstrap.rtl.min.css">
+   
+     <!--JQuery Helper FIle-->
+    <script src="./assets/Jquery/jquery-3.6.0.min.js"></script>
+
+    <title>KET Academy</title>
+
+</head>
+<body>
+    <div id="loader">
+        <img src="./assets/img/gifs/book-anim-fast.gif" alt="">
+        <img src="./assets/img/gifs/Jumping-letters.gif" alt="">
+        <h1 class="logo "><a href="index.html"><span>KET </span>ACADEMY</a></h1>
+    </div>
+
+
+    <!-- =======Navigation Bar=============== -->
+
+    <header id="header" class="header">
+
+        <div class="container">
+            <!--name and logo-->
+            <!-- <img class = "logo" src="./assets/img/ket-logo-fixed.png" alt="KET Acdemy LOgo"> -->
+            <h1 class="logo "><a href="index.html"><span>KET </span>ACADEMY</a></h1>
+            <!--Nav bar list items-->
+            <nav class="navbar nav-desktop">
+                <ul class="nav-list-items">
+                    <li class="list-item" tip="HOME"><a href="./index.html">🏡Home</a></li>
+                    <li class="list-item"  tip="ABOUT"><a href="./about.html">📋About</a></li>
+                    <li class="list-item active-list-item"  tip="SERVICES"><a href="./services.html">🗼Serivces</a></li>
+                    <li class="list-item"  tip="TEAM|AMBASSADORS"><a href="./team.html">🤼‍♀️Team</a></li>
+                    <li class="list-item"  tip="LIBRARY" ><a href="./library.html">📚Library</a></li>
+                    <li class="list-item"  tip="TESTIMONIALS"><a href="./testimonials.html">🎤Testimonials</a></li>
+                    <li class="list-item"  tip="CONTACT"><a href="./contact.html">📞Contact</a></li>
+                </ul>
+                <!--<i class="bu bi-list"></i> -->
+            </nav>
+
+            <!--nav for mobie. Had to create this incase one 
+            mini/maximises their browser window
+            -->
+            <nav class="navbar mobile-nav">
+                <ul class="nav-list-items">
+                    <li class="list-item" tip="HOME"><a href="./index.html">🏡Home</a></li>
+                    <li class="list-item"  tip="ABOUT"><a href="./about.html">📋About</a></li>
+                    <li class="list-item active-list-item"  tip="SERVICES"><a href="./services.html">🗼Serivces</a></li>
+                    <li class="list-item"  tip="TEAM|AMBASSADORS"><a href="./team.html">🤼‍♀️Team</a></li>
+                    <li class="list-item"  tip="LIBRARY" ><a href="./library.html">📚Library</a></li>
+                    <li class="list-item"  tip="TESTIMONIALS"><a href="./testimonials.html">🎤Testimonials</a></li>
+                    <li class="list-item"  tip="CONTACT"><a href="./contact.html">📞Contact</a></li>
+                </ul>
+                <!--<i class="bu bi-list"></i> -->
+            </nav>
+            
+            <div class="media-links-head">
+                <a href="https://www.twitter.com/AcademyKet" target="_blank" class="twitter"><i class="bu bi-twitter"></i></a>
+                <a href="https://www.facebook.com/KET-AcademyOrientation-107170228312584/" target="_blank" class="facebook"><i class="bu bi-facebook"></i></a>
+                <a href="https://www.instagram.com/ket.academy/" target="_blank" class="instagram"><i class="bu bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/77005269" target="_blank" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
+                <a href="https://www.youtube.com/c/KETAcademy" target="_blank" class="youtube"><i class="bu bi-youtube"></i></i></a>
+            </div>  
+
+            <i class="bu bi-list mobile-menu-toggle"></i>
+        </div>
+    </header>
+    
+    <!-- =========== Introduction section: carousel-->
+    <main id="services">
+        <div class="sec-title">
+            <h3>
+                Our EduServices
+            </h3>
+        </div>
+        <section class="our-services" id="our-services">
+            <article>
+                <img src="./assets/img/icons/counselling-w.jfif" alt="">
+                <h3>Counselling</h3>
+                <p>
+                    Considering the widespread problems(financial, academic, mental, physical, etc) that students face, KET academy's counselling department is there to
+                    look into these issues and offer solutions or remedies to students who need them.
+
+                </p>
+            </article>
+    
+            <article>
+                <img src="./assets/img/icons/orientation-3.png" alt="">
+                <h3>Orientation</h3>
+                <p>To remedy the alarmingly wrong choices students make with respect to their academics , KET academy provides student orientation complete with
+                    tailored individual and general academic maps and paths that will enable students realise their desired professions and careers.
+
+                </p>
+            </article>
+    
+            <article>
+                <img src="./assets/img/icons/lectures-2.png" alt="">
+                <h3>Online Lectures</h3>
+                <p>
+                    Perhaps the best-known services we provide, these online lectures include summarised notes and YouTube videos with quizzes, games, practical examples and exercises to fully explain and engage
+                    students in their academic demands.
+                </p>
+            </article>
+    
+            <article>
+                <img src="./assets/img/icons/exams.png" alt="">
+                <h3>Exam Preps</h3>
+                <p>
+                    KET academy is very committed and intent on helping students get to their dream schools. We provide general Prep classes to help students prepare for competitive entrance examinations 
+                    to educational institutions across the entire national territory.
+                </p>
+            </article>
+    
+            <article>
+                <img src="./assets/img/icons/info-1.png" alt="">
+                <h3>EduInfo Services</h3>
+                <p>Our partnership and affiliations to reputable community-based organisations notably <b>Open Dreams</b> and <b>Youth Inspiration</b>
+                    puts us on an ideal pedestal for unrivaled access to information to opportunities for students.
+                    </p>
+            </article>
+
+            <article>
+                <img src="./assets/img/icons/train-2.png" alt="">
+                <h3>Edu Training</h3>
+                <p>
+                    Our scope of educational assistance also involves teachers. KET academy provides training to new ambassadors and even professional 
+                    teachers on the use of <b> instructional technology</b> and platforms to facilitate teaching.
+                </p>
+            </article>
+
+        
+        </section>
+        <div class="sec-title">
+            <h3>
+                Subjects Categories We Teach
+            </h3>
+        </div>
+        <section class="offered-subjects">
+            <article>
+                <img src="./assets/img/icons/computer-2.png" alt="">
+                <h3>Computer Science</h3>
+                <p>
+                    Perhaps the most required academic discipline of this age, Computer science is a fascinating subject. KET academy acknowledges 
+                    and teaches CSC as one of its chief subjects.
+                </p>
+            </article>
+            <article>
+                <img src="./assets/img/icons/math.png" alt="">
+                <h3>Mathematics</h3>
+                <p>
+                    The very language of the scientific world, loathed and loved by many. KET academy provides resources to learn Math on an indiviadually-paced
+                    process to ease understanding for the student and dispell unfounded fear of the subject.
+                </p>
+            </article>
+            <article>
+                <img src="./assets/img/icons/fmath.jfif" alt="">
+                <h3>Further Mathematics</h3>
+                <p>
+                    Advanced Math and perhaps the toughest A-level subject, Fmath is an arduous challenge to many students. At KET academy we simplify and demystify the 
+                    interesting subject in easy-to-understand videos and notes.
+                </p>
+             </article>
+            <article>
+                <img src="./assets/img/icons/chem-1.png" alt="">
+                <h3>Chemistry</h3>
+                <p>
+                    The backbone subject of science, Chemistry is a truly fascinating subject often dearly loved by many students. We share the same enthusiasm at KET 
+                    academy's Chemistry department. Let's enjoy the learning process together.
+                </p>
+            </article>
+            <article>
+                <img src="./assets/img/icons/bio-1.png" alt="">
+                <h3>Biology</h3>
+                <p>
+                    Biology is a exhaustively broad and extensive subject, often easy to comprehend but hard to fully grasp.Biology
+                    enthusiasts and experts at KET Academy will provide you with tested methods to handle this friendly but enormous subject.
+                </p>
+            </article>
+
+            <article>
+                <img src="./assets/img/icons/geology.png" alt="">
+                <h3>Geology</h3>
+                <p>
+                    Geology is a truly handy subjects especially in its industrial application. At KET Academy's Geology department, we join you in dismantling 
+                    this subject that plays a practical role in the upkeep of our country's energy resources and economy.
+                </p>
+            </article>
+
+            <article>
+                <img src="./assets/img/icons/phy-n.png" alt="">
+                <h3>Physics</h3>
+                <p>
+                    Seeking to master and understand the physical world, Physics is arguably the most practical subject at <em>all</em> levels. The nerds and science enthusiasts at KET academy will
+                    skillfully help you craft the mental manual and formula to effectively scale this often intimidating subject.
+                </p>
+            </article>
+
+            <article>
+                <img src="./assets/img/icons/geography-2.png" alt="">
+                <h3>Geography</h3>
+                <p>
+                    Climate, Forest, Oceans. Geography addresses our home planet including the elements that suffer from our human influence. KET academy's Geography wing is not only motivated to
+                    ensure your academic competence in the subject but also to solve the problems it uncovers.
+                    
+                </p>
+            </article>
+
+            <article>
+                <img src="./assets/img/icons/econs.png" alt="">
+                <h3>Economics</h3>
+                <p>
+                    Affecting all other domains of study in the real world oftentimes substantially, Economics is a very applicable subject. KET academy has a well-rounded team of expert
+                    economists to guide, mentor and assist you as needed to effectively handle the heavy academic demands of the subject.
+                </p>
+            </article>
+
+          
+    
+        </section>
+
+        <div class="sec-title">
+            <h3>
+                Exams and Tests We Help With
+            </h3>
+        </div>
+    
+        <section class="exam-prep">
+            <article>
+                <img src="./assets/img/icons/o-level.png" alt="">
+                <h4>GCE O LEVEl</h4>
+                <p>
+                    KET academy provides learning materials for all major O-Level subjects.
+                </p>
+            </article>
+            <article>
+                <img src="./assets/img/icons/a-level.jfif" alt="">
+                <h4>GCE A LEVEl</h4>
+                <p>
+                    A-level is the most priotised education level owing to the numerous hardships students face here.
+                </p>
+            </article>
+            <article>
+                <img src="./assets/img/icons/gce.jfif" alt="">
+                <h4>TVEE | Technical GCE</h4>
+                <p>
+                    Inclusion. KET academy forges ahead to offer its much-needed services to technical shool students.
+                </p>
+            </article>
+            <article>
+                <img src="./assets/img/icons/exams.png" alt="">
+                <h4>Competitive Entrance Exams(Concours)</h4>
+                <p>
+                    KET academy is commited to helping you choose and pass suitable concours to get to your dream school.
+                </p>
+            </article>
+            <article>
+                <img src="./assets/img/icons/sat-act.png" alt="">
+                <h4>SAT and ACT</h4>
+                <p>
+                    Students who wish to study abroad often need to write a standardized test. KET academy comes in handy.
+                </p>
+            </article>
+            <article>
+                <img src="./assets/img/icons/eng-1.png" alt="">
+                <h4>Duolingo, IELTS &amp; TOEFL</h4>
+                <p>
+                    English proficiency test scores are used by various bodies to estimate grasp of English Language. KET academy supports in preparing for such. 
+                </p>
+            </article>
+        </section>   
+    </main>
+    
+     <!-- =========Footer============ -->
+     <footer class="footer" id="footer">
+        <div class="footer-items">
+            <div class="address">
+                <!-- <h1 class="logo "><a href="index.html"><span>KET </span>ACADEMY </a>
+                    <span class="blued"> <i style="font-size: 24px;" class="bi bi-geo-alt-fill blued"> </i> </span>
+                   </h1>
+                    -->
+                <h4>KET Academy <i class="bi bi-geo-alt-fill blued"> </i></h4>
+                <span>
+                <p>Chappelle Obili, <br>
+                   8687 Yaounde, <br>
+                   Centre Region, CMR
+                </p>
+                </span>
+                <p>
+                    📞Phone:<span>(+237) 6 79 56 35 42</span>  <br>
+                    📧Email: <span> <a href="mailto:ketacademy1@gmail.com">ketacademy1@gmail.com</a></span>
+                </p>
+            </div>
+            <div class="footer-list">
+                <h4>Useful Links <span class="blued">🧭</span></h4>
+                <ul class="footer-list-items">
+                    <li class="list-item active"><i class="bu bi-link"></i> <a href="./index.html"> Home</a>
+                    <li class="list-item"><i class="bu bi-link"></i> <a href="./about.html"> About</a></li>
+                    <li class="list-item"><i class="bu bi-link"></i> <a href="./services.html"></i> Services</a></li>
+                    <li class="list-item"><i class="bu bi-link"></i> <a href="./team.html"> Team|Ambassadors</a></li>
+                    <li class="list-item"><i class="bu bi-link"></i> <a href="./library.html"> Library</a></li>
+                    <li class="list-item"><i class="bu bi-link"></i> <a href="./testimonials.html"> Testimonials</a></li>
+                    <li class="list-item"><i class="bu bi-link"></i> <a href="./contact.html"> Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="newsletter">
+                <h4>Join Our Newsletter <span class="blued">🔥</span></h4>
+                    <p>Get frequent updates on opportunities and study material</p>
+                    <form 
+                    class= "needs-validation d-flex"
+                    name="gform" id="gform" enctype="text/plain"
+                    action="https://docs.google.com/forms/d/e/1FAIpQLSdLM8d3vGut4fxCG2zDLJvlShs_PL1oeIFgBg1U7ARkrJoUtQ/formResponse?" target = "hidden_iframe" 
+                    onsubmit="submitted=true;"
+                    >
+                       <input type="email" placeholder="Enter Email..." 
+                           id="entry.941264948"
+                           name="entry.941264948"
+                           required>
+                       <input class="btn btn-primary" id="ent-111" type="submit" value="🚀Subscribe">
+                   </form>
+                   <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+                   <script type="text/javascript">var submitted=false;</script>
+                   <script type="text/javascript">
+                       $('#gform').on('submit', function(e) {
+                         $("#ent-111").css("color", " rgb(6, 160, 100)")
+                         $("#ent-111").css("background", "#fff")
+                         $("#ent-111").val("Subscribed✨")
+                         $('#gform #ent-111').prop("disabled", true)
+                         });
+                   </script>
+            </div>
+        </div>
+        <hr>
+        <div class="bottom-footer">
+            <div class="copyright">
+                &copy;Copyright  <a href="">KET Academy</a> @ 2021. All rights reserved. <br>
+                Designed by <a href="#">KET Academy#CSE</a>
+            </div>
+            <!--Social media Handles-->
+            <div class="media-links d-flex">
+                <a href="https://www.twitter.com/AcademyKet" target="_blank" class="twitter"><i class="bu bi-twitter"></i></a>
+                <a href="https://www.facebook.com/KET-AcademyOrientation-107170228312584/" target="_blank" class="facebook"><i class="bu bi-facebook"></i></a>
+                <a href="https://www.instagram.com/ket.academy/" target="_blank" class="instagram"><i class="bu bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/77005269" target="_blank" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
+                <a href="https://www.youtube.com/c/KETAcademy" target="_blank" class="youtube"><i class="bu bi-youtube"></i></i></a>
+            </div>        
+          
+        </div>
+    </footer>
+    <div id="back-to-top">
+        <a href="#"><i class="bu bi-arrow-up-circle-fill"></i></a>
+    </div>
+</body>
+
+
+<!--Main template Javascript-->
+<script src="./assets/js/main.js"></script>
+
+<!--Boostrap Helper Files-->
+<script src="./assets/bootstrap/bootstrap/js/bootstrap.min.js"></script>
+<script src="./assets/bootstrap/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="./assets/bootstrap/bootstrap/js/bootstrap.esm.min.js"></script>
+
+</html>

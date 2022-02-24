@@ -1,0 +1,324 @@
+{
+    "notes": {
+        "n1": {
+            "subjectTag": "Math",
+            "title": "Sequences and Series",
+            "linkToContent": 
+            "https://drive.google.com/file/d/1g6hvoLb5Y47D-RGkSnB7QLJ9VbLOxrzZ/view?usp=sharing",
+            "description": 
+            "Detailed break-down on sequences and series in Math mostly geared towards further math students. Numerous illustrations and exercises to enhance understaning of study material and for practice."
+        },
+        "n2": {
+            "subjectTag": "CSC",
+            "title": "Algorithmns and Data Structures",
+            "linkToContent": "",
+            "description": 
+            "Notes on Algorithmns and data Structures covering the entire advanced level syllabus requirement plus numerous illustrations and examples to ease understanding and multiple exercises to enhace study experience."
+
+        },
+        "n3": {
+            "subjectTag": "Math",
+            "title": "Mathematical Induction",
+            "linkToContent": "https://drive.google.com/file/d/1WAVHN4Kt-Sw-nM2RgVVN-mObv5Mv02Mm/view?usp=sharing",
+            "description": 
+            "Indepth notes on proving by mathematical induction. Ideal for Math and Further math students with examples, illustrations and exercises for practise."
+        },
+        "n4": {
+            "subjectTag": "Phy",
+            "title": "Data Analysis",
+            "linkToContent": 
+            "https://drive.google.com/file/d/18Kh2943YCqqEuzGbVajfqdDwiwBjtfT_/view?usp=sharing",
+            "description": 
+            "Notes on data analysis to guide in answering the corresponding question in GCE paper. Also useful to apply in other subjects. "
+        },
+        "n5": {
+            "subjectTag": "Math",
+            "title": "Mathematical Symbols + Scientific constants and Identities",
+            "linkToContent": 
+            "https://docs.google.com/document/d/1L1bFR757E_NYA-GcbagJ3d7Xfpevh6OE/edit?usp=sharing&ouid=100698981533933226741&rtpof=true&sd=true",
+            "description": 
+            "Well tailored-graph book with standard graph paper for practise and preparations. Mathematical symbols and scientific constants for reference"
+        },
+        "n6": {
+            "subjectTag": "Fmath",
+            "title": "Further Differential Equations",
+            "linkToContent": 
+            "https://docs.google.com/document/d/1_5oKmaySRtzP-D0vOL7rXcYPsIkr0U_-/edit?usp=sharing&ouid=100698981533933226741&rtpof=true&sd=true",
+            "description": 
+            "A uniquely simplified explanation of further differential for Further Math-GCE A level applicable to math. Numerous exercises and Illustrations to facilitate understanding and simplify concepts"
+        },
+        "n7": {
+            "subjectTag": "Math",
+            "title": "Graph Book",
+            "linkToContent": 
+            "https://drive.google.com/file/d/1e0pZFzEapQPZUkHMFKTT8_bqBrqSnkLe/view?usp=sharing",
+            "description": 
+            "Standard Graph paper for GCE preparations and practise."
+        },
+       
+        "n8": {
+            "subjectTag": "Math",
+            "title": "Notes and Exercises on Inequalities",
+            "linkToContent": 
+            "https://docs.google.com/document/d/1L1bFR757E_NYA-GcbagJ3d7Xfpevh6OE/edit?usp=sharing&ouid=100698981533933226741&rtpof=true&sd=true",
+            "description": 
+            "Simplified notes on mathematical inequalities with graphical explanations and multiple examples for illustration and exercises for practice"
+        },
+        "n9":{
+            "subjectTag": "Phy",
+            "title": "Kinetic Theory of Gases",
+            "linkToContent": 
+            "https://docs.google.com/document/d/1uvmctLVJPkKklG-eNJF0zmB5lRCJf3zL/edit?usp=sharing&ouid=100698981533933226741&rtpof=true&sd=true",
+            "description":
+            ""
+        },
+        "n10":{
+            "subjectTag": "Phy",
+            "title": "Photoelectric Effect",
+            "linkToContent": 
+            "https://drive.google.com/file/d/1VTYtn1dCVjjxggGnRmoon81kM88d9hYo/view?usp=sharing",
+            "description":
+            ""
+        },
+        "n11":{
+            "subjectTag": "Phy",
+            "title": "Magnetic Fields",
+            "linkToContent": 
+            "https://docs.google.com/document/d/1gVjWnr2Qa_uuGwaP-zji6IBTpEiTGMlp/edit?usp=sharing&ouid=100698981533933226741&rtpof=true&sd=true",
+            "description":
+            ""
+        },
+        "n12":{
+            "subjectTag": "Phy",
+            "title": "Energy Resources",
+            "linkToContent": 
+            "https://drive.google.com/file/d/1VEWdTnFIGjfpNnbVrdLikBvqDp7QjJAx/view?usp=sharing",
+            "description":
+            ""
+        },
+        "n13":{
+            "subjectTag": "Phy",
+            "title": "Projectile Motion",
+            "linkToContent": 
+            "https://drive.google.com/file/d/1hFdBTNQixGuWMK8iNWjxDZKL7xUOSJDe/view?usp=sharing",
+            "description":
+            ""
+        },
+        "n14":{
+            "subjectTag": "Phy",
+            "title": "Radioactivity",
+            "linkToContent": 
+            "https://docs.google.com/document/d/1ZTUZWjSfrkFis81gk3dxOP5xR56s0SNQ/edit?usp=sharing&ouid=100698981533933226741&rtpof=true&sd=true",
+            "description":
+            ""
+        },
+        "n15":{
+            "subjectTag": "CSC",
+            "title": "Algorithmic Complexity",
+            "linkToContent": 
+            "https://drive.google.com/file/d/1lqBt1-5YHx2TPdO_4TZtNRanetKcb05B/view?usp=sharing",
+            "description":
+            ""
+        },
+        "n16":{
+            "subjectTag": "Math",
+            "title": "Binomial Theorem",
+            "linkToContent": 
+            "https://drive.google.com/file/d/1mRIOyIoqPUCFsAHxnHB2gx9-VuTRYkf2/view?usp=sharing",
+            "description":
+            ""
+        },
+        "n17":{
+            "subjectTag": "Math",
+            "title": "Circular Motion",
+            "linkToContent": 
+            "https://drive.google.com/file/d/1-OieTesHgas0YOMklt0MCOMdDsN5GBxq/view?usp=sharing",
+            "description":
+            "Detailed notes. Easy to understand. Simple approach. Explanatory graphics. Applicabe to Physics and Further Maths"
+        },
+        "n18":{
+            "subjectTag": "Phy",
+            "title": "Waves and Radioactivity",
+            "linkToContent": 
+            "https://drive.google.com/file/d/1X2oc16t2mf2PYik0K98vpptg9WdVAsrT/view?usp=sharing",
+            "description":
+            ""
+        },
+        "n19":{
+            "subjectTag": "Phy",
+            "title": "Alternating Circuit Theory",
+            "linkToContent": 
+            "https://drive.google.com/file/d/1PvCKjAJvqXmocKaPGVpfPOZf8nK1kBrd/view?usp=sharing",
+            "description":
+            "A complete overview of alternating circuit theory in phsyics with examples and exercises"
+        },
+        "n20":{
+            "subjectTag": "Chem",
+            "title": "S-Block Elements",
+            "linkToContent": 
+            "https://drive.google.com/file/d/1n14IZNVqPz6LyyOxyswuN5sgSKIr7wQa/view?usp=sharing",
+            "description":
+            "A thorough overview and analysis of S-block elements. Examples and exercises to ease your understanding"
+        }
+    },
+
+
+    "videos": {
+        "v1": {
+            "subjectTag": "Fmath",
+            "title": "Solving Second Order Differential Equations",
+            "linkToContent": "https://www.youtube.com/embed/czEehPYcXV4"
+        },
+        "v2":{
+            "subjectTag": "Math",
+            "title":"How to Solve Exact differentail equations",
+            "linkToContent": 
+            "https://www.youtube.com/embed/q9y_YqzzUnU"
+        },
+        "v3":{
+            "subjectTag": "ICT",
+            "title":"Complete Spreadsheet Tutorial",
+            "linkToContent": 
+            "https://www.youtube.com/embed/9-gkspvhO8c&t=108s"
+           
+        },
+        "v4":{
+            "subjectTag": "Bio",
+            "title":"Dissection of Fowls",
+            "linkToContent": 
+            "https://www.youtube.com/embed/jO4CpWPoODU"
+        },
+        "v5":{
+            "subjectTag": "Math",
+            "title":"Solution to PMM GCE 2020 Q4",
+            "linkToContent": 
+            "https://www.youtube.com/embed/uWGOLyjzN4g"
+        },
+        
+        "v6":{
+            "subjectTag": "Phy",
+            "title":"Measuring resistivity of a wire",
+            "linkToContent": 
+            "https://www.youtube.com/embed/sGhGRsZEwHo"
+        },
+        "v7":{
+            "subjectTag": "ICT",
+            "title":"Guide to Logic Gates",
+            "linkToContent": 
+            "https://www.youtube.com/embed/9pMbbrbvhUQ"
+        },
+        "v8":{
+            "subjectTag": "Phy",
+            "title":"Measurement with Micrometer Screwguage",
+            "linkToContent": 
+            "https://www.youtube.com/embed/JbMN3k_WZ1Q"
+        },
+        "v9":{
+            "subjectTag": "CSC",
+            "title":"Normalising A Database: [1NF, 2NF, 3NF]",
+            "linkToContent": 
+            "https://www.youtube.com/embed/1RpLqu3iW3U"
+        },
+        "v10":{
+            "subjectTag": "Fmath",
+            "title":"Solving linear differential equations",
+            "linkToContent": 
+            "https://www.youtube.com/embed/eCm-eKH7Ees"
+        },
+        "v11":{
+            "subjectTag": "Math",
+            "title":"Solution to FET Buea 'Concours' Math",
+            "linkToContent": 
+            "https://www.youtube.com/embed/Md4VX5639cU"
+        },
+        "v12":{
+            "subjectTag": "Chem",
+            "title":"Chemistry A level 2020 P1 Solutions",
+            "linkToContent": 
+            "https://www.youtube.com/embed/_LdYPIXhf0U"
+        },
+        "v13":{
+            "subjectTag": "Chem",
+            "title":"Chemistry Practicals ",
+            "linkToContent": 
+            "https://www.youtube.com/embed/IGnkpqB7yFA"
+        },
+        "v14":{
+            "subjectTag": "Math",
+            "title":"Solving Differential Equations",
+            "linkToContent": 
+            "https://www.youtube.com/embed/WfO0FDEC_e0"
+        },
+        "v15":{
+            "subjectTag": "Phy",
+            "title":"Solution to GCE June 2017 | Photoelectric effect",
+            "linkToContent": 
+            "https://www.youtube.com/embed/7EmCfW4L0NU"
+        }
+    },
+
+
+    "answers": {
+        "a1": {
+            "subjectTag": "Math",
+            "title": "Solutions to past questions on sequences and series",
+            "linkToContent": "https://drive.google.com/file/d/1X5XEyjIT3p1l2RMn06YZJtwsu5tRqqJz/view?usp=sharing",
+            "description": "Detailed and clear soltuions to questions on sequences and series for advanced level Mathematics"
+        },
+        
+        "a2": {
+            "subjectTag": "Math",
+            "title": "Solution to exercise on polynomials",
+            "linkToContent": "https://drive.google.com/file/d/1fGRa9y59_TDHZ37Y7m44i27lm8YpwRKx/view?usp=sharing",
+            "description": "A well structured explanation and solution to Polynomial questions"
+        },
+        "a3":{
+            "subjectTag": "Math",
+            "title": "Solutions to Pure Math with Mechanics: June 2020",
+            "linkToContent":
+            "",
+            "description":
+            ""
+        },
+        "a4":{
+            "subjectTag": "Phy",
+            "title": "1000 Solved Problems in Classical Physics",
+            "linkToContent":
+            "https://drive.google.com/file/d/106zR4jRdh-8kH8l8zPTk31ME3w4y_8Vl/view?usp=sharing",
+            "description":
+            "Thrilling Textbook of answers!!"
+        }
+    },
+
+    "questions": {
+        "q1": {
+            "subjectTag": "Fmath",
+            "title": "Sequences and Series: Past question from 2015-2021",
+            "linkToContent": "https://docs.google.com/document/d/1Mf0_AbeDLFPy6Q1qdoR3XYMDjzshSpEe/edit?usp=sharing&ouid=100698981533933226741&rtpof=true&sd=true",
+            "description": "Past questions on sequnces and series for Further mathematics."
+        },
+        "q2": {
+            "subjectTag": "Math",
+            "title": "Exercises on Centre of Gravity",
+            "linkToContent": 
+            "https://drive.google.com/file/d/1_VUgDLm1iJTOvXei7jtCcOjN5FEQPPVg/view?usp=sharing",
+            "description": 
+            "Multiple choice questions to boost your understanding and challenge your grasp of centre on gravity in mathematics as you study."
+        },
+
+        "q3":{
+            "subjectTag":"Phy",
+            "title":"Multiple Choice Quiz Questions, A-Level Physics",
+            "linkToContent":
+            "https://drive.google.com/file/d/1r1XMqY8g9rhAFD8EQ5BFq39X7HDdDWfk/view?usp=sharing",
+            "description":""
+        },
+        "q4":{
+            "subjectTag":"Phy",
+            "title":"Compilation of Physics Paper 3 questions",
+            "linkToContent":
+            "https://drive.google.com/file/d/1q_i2bd2LhMwFF1h3gjCyx7hc44S9Knp3/view?usp=sharing",
+            "description":""
+        }
+    }
+}
