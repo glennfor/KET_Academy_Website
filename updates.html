@@ -61,10 +61,10 @@
                     <li class="list-item"  tip="ABOUT"><a href="./about.html">📋About</a></li>
                     <li class="list-item"  tip="SERVICES"><a href="./services.html">🗼Serivces</a></li>
                     <li class="list-item"  tip="TEAM|AMBASSADORS"><a href="./team.html">🤼‍♀️Team</a></li>
-                    <li class="list-item active-list-item"  tip="LIBRARY" ><a href="./library.html">📚Library</a></li>
+                    <li class="list-item"  tip="LIBRARY" ><a href="./library.html">📚Library</a></li>
                     <li class="list-item"  tip="TESTIMONIALS"><a href="./testimonials.html">🎤Testimonials</a></li>
                     <li class="list-item"  tip="CONTACT"><a href="./contact.html">📞Contact</a></li>
-                    <li id="updates"><a href="./updates.html">Updates</a></li>
+                    <li id="updates" class="active-list-item"><a href="./updates.html">Updates</a></li>
                 </ul>
                 <!--<i class="bu bi-list"></i> -->
             </nav>
@@ -73,16 +73,16 @@
             mini/maximises their browser window
             -->
             <nav class="navbar mobile-nav">
+                
                 <ul class="nav-list-items">
-                    <li class="list-item" tip="HOME"><a href="./index.html">🏡Home</a></li>
+                    <li class="list-item " tip="HOME"><a href="./index.html">🏡Home</a></li>
                     <li class="list-item"  tip="ABOUT"><a href="./about.html">📋About</a></li>
                     <li class="list-item"  tip="SERVICES"><a href="./services.html">🗼Serivces</a></li>
                     <li class="list-item"  tip="TEAM|AMBASSADORS"><a href="./team.html">🤼‍♀️Team</a></li>
-                    <li class="list-item  active-list-item"  tip="LIBRARY" ><a href="./library.html">📚Library</a></li>
+                    <li class="list-item"  tip="LIBRARY" ><a href="./library.html">📚Library</a></li>
                     <li class="list-item"  tip="TESTIMONIALS"><a href="./testimonials.html">🎤Testimonials</a></li>
                     <li class="list-item"  tip="CONTACT"><a href="./contact.html">📞Contact</a></li>
-                    <li id="updates"><a href="./updates.html">Updates</a></li>
-            
+                    <li id="updates" class="active-list-item"><a href="./updates.html">Updates</a></li>
                 </ul>
                 <!--<i class="bu bi-list"></i> -->
             </nav>
@@ -101,130 +101,86 @@
 
     <!-- <button id="donate">Donate</button> -->
     
-    <!-- =========== Library-->
-    <main class="library">
-      
-        <div class="library-info">
-            <h2>Welcome to the Libary!</h2>
-            <p>The KET Academy library houses the very essence of its conception, existence, and 
-                purpose. Here you will find different categories of study material and information.
-                KET academy provides this treasured knowledge for free and hopes you will effectively
-                use them for excellence with the best of intentions.
-                <br>
-                <strong>KET Academy Cares!!</strong>
+    <main id="main-updates">
+        <section id="quizzes">
+            <h2>Quizzes</h2>
+            <p>
+                <b>Visit often </b> to enhance and test your knowledge by taking quizzes. You will receive the answers
+                immediately after submitting.
             </p>
+            <ul class="quiz-list">
+                <li>
+                    <p>Mathematics</p>
+                    <ul class="quiz-items">
+                        
+                    </ul>
+                </li>
 
-        </div>
+                <li>
+                    <p>Further Mathematics</p>
+                    <ul class="quiz-items">
+                        
+                    </ul>
+                </li>
 
-        <div class="content-title">
-            <span>Notes</span>
-            <h2>Notes</h2>
-            <p>Notes From KET academy ambassadors, partners and well-wishers.
-                <br>You may download notes for use offline.
-            </p>
-        </div>
-        <div class="item-search">
-            <label for="select-subject">Search for Notes by Subject</label> <br>
-            <select target=".lib-notes" name="select-subject" class="select-subject">
-            </select>
-            <button target=".lib-notes" class="btn btn-info btn-md search-item">Search</button>
-        </div>
-
-        <!--Notes-->
-       
-        <section class="lib-notes">
+                <li>
+                    <p>Chemistry</p>
+                    <ul class="quiz-items">
+                        <li><a href="https://forms.gle/kaN6e1tzXT8sbbaM7">Chemistry Quiz  [March 6, 2022]</a></li>
             
-            
+                    </ul>
+                </li>
+
+                <li>
+                    <p>Physics</p>
+                    <ul class="quiz-items">
+                        
+                    </ul>
+                </li>
+
+                <li target="CSC">
+                    <p>Computer Science</p>
+                    <ul class="quiz-items" name="CSC">
+                        
+                    </ul>
+                </li>
+
+                <li target="Bio">
+                    <p>Biology</p>
+                    <ul class="quiz-items" name="Bio">
+                        
+                    </ul>
+                </li>
+
+                <li>
+                    <p>ICT</p>
+                    <ul>
+                        
+                    </ul>
+                </li>
+            </ul>
         </section>
 
-
-        
-        <div class="content-title">
-            <span>Videos</span>
-            <h2>Videos</h2>
-            <p>Video Lectures and explanation from KET Academy.
-                <br>Visit Our Youtube Channel at <a href="https://www.youtube.com/c/KETAcademy" target="_blank">KET Academy</a> 
-            </p>
-        </div>
-        <div class="item-search">
-            <label for="select-subject">Search for Sample Videos by Subject</label> <br>
-            <select target=".lib-videos" name="select-subject" class="select-subject">
-            </select>
-            <button target=".lib-videos" class="btn btn-info btn-md search-item">Search</button>
-        </div>
-
-        <!--Videos-->
-        <section class="lib-videos">
-            
-        </section>
-
-        
-        
-        <div class="content-title">
-            <span>Answers </span>
-            <h2>Answers</h2>
-            <p>Answers to past questions produced by reputable ambassadors.
-                <br>Check out more explanations at <a href="https://www.youtube.com/c/KETAcademy" target="_blank">KET Academy</a> 
-            </p>
-        </div>
-        <div class="item-search">
-            <label for="select-subject">Search by Subject</label><br>
-            <select target=".lib-answers" name="select-subject" class="select-subject">
-            </select>
-            <button target=".lib-answers" class="btn btn-info btn-md search-item">Search</button>
-        </div>
-
-        <!--solution to past question-->
-        <section class="lib-answers">
-            
-        </section>
-
-        
-
-
-        
-        <div class="content-title">
-            <span>Past Questions</span>
-            <h2>Past Questions</h2>
-            <p>Past Questions provided by KET Academy
-                <br> Examination bodies: GCE A/O Level, TVEE, Baccaleurat, CAP. 
-                <br>Check out video solutions and explantions at <a href="https://www.youtube.com/c/KETAcademy" target="_blank">KET Academy</a> 
-            </p>
-        </div>
-        <div class="item-search">
-            <label for="select-subject">Search for Notes by Subject</label> <br>
-            <select target=".lib-pastquestions" name="select-subject" class="select-subject">
-            </select>
-            <button target=".lib-pastquestions" class="btn btn-info btn-md search-item">Search</button>
-        </div>
-
-        <!--Past questions-->
-        <section class="lib-pastquestions">
-
-        </section>
     </main>
 
+
     <!-- =========Footer============ -->
-
-
-
-
     <footer class="footer" id="footer">
         <div class="footer-items">
             <div class="address">
-                <!-- <h1 class="logo "><a href="index.html"><span>KET </span>ACADEMY </a>
-                    <span class="blued"> <i style="font-size: 24px;" class="bi bi-geo-alt-fill blued"> </i> </span>
-                </h1>
-                    -->
-                <h4>KET Academy <i class="bi bi-geo-alt-fill blued"> </i></h4>
+                <h1 class="logo "><a href="index.html"><span>KET </span>ACADEMY </a>
+                    <span class="blued"> <i style="font-size: 24px; " class="bi bi-geo-alt-fill"> </i> </span>
+                   </h1>
+                   
+                <!-- <h4>KET Academy <i class="bi bi-geo-alt-fill blued"> </i></h4> -->
                 <span>
                 <p>Chappelle Obili, <br>
-                8687 Yaounde, <br>
-                Centre Region, CMR
+                   8687 Yaounde, <br>
+                   Centre Region, CMR
                 </p>
                 </span>
                 <p>
-                    📞Phone:<span>(+237) 678 900 000</span>  <br>
+                    📞Phone:<span>(+237) 6 79 56 35 42</span>  <br>
                     📧Email: <span> <a href="mailto:ketacademy1@gmail.com">ketacademy1@gmail.com</a></span>
                 </p>
             </div>
@@ -244,28 +200,29 @@
             <div class="newsletter">
                 <h4>Join Our Newsletter <span class="blued">🔥</span></h4>
                     <p>Get frequent updates on opportunities and study material</p>
-                    <form 
-                    class= "needs-validation d-flex"
-                    name="gform" id="gform" enctype="text/plain"
-                    action="https://docs.google.com/forms/d/e/1FAIpQLSdLM8d3vGut4fxCG2zDLJvlShs_PL1oeIFgBg1U7ARkrJoUtQ/formResponse?" target = "hidden_iframe" 
-                    onsubmit="submitted=true;"
-                    >
-                       <input type="email" placeholder="Enter Email..." 
-                           id="entry.941264948"
-                           name="entry.941264948"
-                           required>
-                       <input class="btn btn-primary" id="ent-111" type="submit" value="🚀Subscribe">
-                   </form>
-                   <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-                   <script type="text/javascript">var submitted=false;</script>
-                   <script type="text/javascript">
-                       $('#gform').on('submit', function(e) {
-                         $("#ent-111").css("color", " rgb(6, 160, 100)")
-                         $("#ent-111").css("background", "#fff")
-                         $("#ent-111").val("Subscribed✨")
-                         $('#gform #ent-111').prop("disabled", true)
-                         });
-                   </script>
+                <form 
+                 class= "needs-validation d-flex"
+                 name="gform" id="gform" enctype="text/plain"
+                 action="https://docs.google.com/forms/d/e/1FAIpQLSdLM8d3vGut4fxCG2zDLJvlShs_PL1oeIFgBg1U7ARkrJoUtQ/formResponse?" target = "hidden_iframe" 
+                 onsubmit="submitted=true;"
+                 >
+                    <input type="email" placeholder="Enter Email..." 
+                        id="entry.941264948"
+                        name="entry.941264948"
+                        required>
+                    <input class="btn btn-primary" id="ent-111" type="submit" value="🚀Subscribe">
+                </form>
+                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+                <script type="text/javascript">var submitted=false;</script>
+                <script type="text/javascript">
+                    $('#gform').on('submit', function(e) {
+                      $("#ent-111").css("color", " rgb(6, 160, 100)")
+                      $("#ent-111").css("background", "#fff")
+                      $("#ent-111").val("Subscribed✨")
+                      $('#gform #ent-111').prop("disabled", true)
+                      });
+                </script>
+
             </div>
         </div>
         <hr>
@@ -282,22 +239,21 @@
                 <a href="https://www.linkedin.com/company/77005269" target="_blank" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
                 <a href="https://www.youtube.com/c/KETAcademy" target="_blank" class="youtube"><i class="bu bi-youtube"></i></i></a>
             </div>        
-        
+          
         </div>
     </footer>
     <div id="back-to-top">
         <a href="#"><i class="bu bi-arrow-up-circle-fill"></i></a>
     </div>
-    </body>
+</body>
 
 
-    <!--Main template Javascript-->
-    <script src="./assets/js/main.js"></script>
-    <script src="./assets/js/library.js"></script>
+<!--Main template Javascript-->
+<script src="./assets/js/main.js"></script>
 
-    <!--Boostrap Helper Files-->
-    <script src="./assets/bootstrap/bootstrap/js/bootstrap.min.js"></script>
-    <script src="./assets/bootstrap/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="./assets/bootstrap/bootstrap/js/bootstrap.esm.min.js"></script>
+<!--Boostrap Helper Files-->
+<script src="./assets/bootstrap/bootstrap/js/bootstrap.min.js"></script>
+<script src="./assets/bootstrap/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="./assets/bootstrap/bootstrap/js/bootstrap.esm.min.js"></script>
 
 </html>

@@ -1,6 +1,8 @@
 
+
 //test
 console.log("DEBUG:-$")
+
 
 //ono load show this
 $(window).on('load', function(){
@@ -19,40 +21,21 @@ function removeLoader(){
 
 
 //back top
-const backToTop = $('#back-to-top');
+const backToTop = document.getElementById('back-to-top');
 
-// $(window).on('scroll', (ev)=>{
-//   if(window.scrollY < 100){
-//     console.log('hmmmm', window.scrollY)
-//     $('#back-to-top').css("display", 'none !important')
-
-//   }
-//   else
-//   $('#back-to-top').css("display", 'inline-block')
-// })
+$(window).on('scroll', (ev)=>{
+  if(window.scrollY < 100){
+    backToTop.style.opacity = 0
+  }
+  else
+  backToTop.style.opacity = 1
+})
 
 //mobile nav
 
 const mobileNavButton = document.querySelector('.mobile-menu-toggle')
 const mobileMenu = document.querySelector('.navbar.mobile-nav')
 
-// mobileNavButton.onclick  = ()=>{
-//   if(mobileMenu.style.display != 'none' && mobileMenu.style.display)
-//   {
-
-//     mobileMenu.style.display
-//     mobileMenu.style.display = 'none'
-//     mobileNavButton.classList.add('bi-list')
-//     mobileNavButton.classList.remove('bi-x')
-
-  
-//   }else{
-//     mobileMenu.style.display = 'flex'
-//     mobileNavButton.classList.add('bi-x')
-//     mobileNavButton.classList.remove('bi-list')
-    
-//   }
-// }
 
 mobileNavButton.onclick  = ()=>{
   
@@ -77,7 +60,7 @@ mobileNavButton.onclick  = ()=>{
 
 
 const menu = Array.from(document.querySelector('.navbar.nav-desktop > .nav-list-items').
-                  getElementsByTagName("li"))
+                  getElementsByClassName("list-item"))
 
 Array.from(menu).forEach(menuItem=>{
   tipText = menuItem.getAttribute("tip").toString().trim()
@@ -161,5 +144,21 @@ function showHide(faq){
   }
 }
 )()
+
+
+//donate button
+
+const donateButton = document.getElementById('donate')
+
+if(donateButton){
+  donateButton.onclick = ()=>{
+    alert("KET academy depends on your donations as funds to acquire"+
+    " the \n-equipments, \n-resources and \n-tools\n it uses to carry out its various activities."+
+    "\nYour Donation means a lot. A true investment in the future of young Cameroonians.")
+    open("https://bit.ly/3IMwhEN", "_blank")
+    console.log("visited")
+  }
+}
+
 
 

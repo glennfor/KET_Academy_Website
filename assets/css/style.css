@@ -268,7 +268,7 @@ ul{
 /** ====Media queries for small screen ******/
 
 /**small laptops and tablets + mobile**/
-@media screen and (max-width: 1050px){
+@media screen and (max-width: 1200px){
     #header > .container{
         justify-content: space-between;
         padding-inline: 8px;
@@ -334,8 +334,72 @@ ul{
     }
 }
 
+#updates{
+    
+    display: inline-block;
+    padding: 10px 35px;
+    border-radius: 25px;
+    border: 2px solid #2096c5;
+    transition: 0.3s;
+}
+#updates a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    font-style: bold;
+    white-space: nowrap;
+    text-transform: uppercase;
+    transition: 0.3s;
+    color: #972f2f;
+    text-decoration: none; 
+}
+
+#updates:hover{
+    background-color: #2096c5;;
+}
 
 
+
+/***donation**/
+
+#donate{
+    position: fixed;
+    top: 65;
+    right: 0;
+    margin: 10px 25px;
+    z-index: 1098;
+    
+    font-family: "Raleway", "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    display: inline-block;
+    padding: 7px 35px;
+    border-radius: 25px;
+    border: 2px solid #00ffaa;
+    background-color: #20c58e;
+    color: #0c3320;
+    text-transform: uppercase;
+    transition: 0.3s;
+
+    animation: pulsew 1s linear infinite;
+}
+
+@keyframes pulsew {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.3,1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+#donate:hover{
+    border: 2px solid #20c58e;
+    background-color: #00ffaa;
+}
 
 /**********************************************
                 The Intro
@@ -1861,4 +1925,52 @@ ul{
     padding-top: 10px;
     text-align: center;
     width: 100%;
+}
+
+
+/*********************************************************************************
+********************************************************************************
+*********************Updates PAGE SPECIFIC STYLING*********************************
+***********************************************************************************
+**********************************************************************************/
+
+#main-updates{
+    padding: 25px 15px;
+}
+
+#quizzes{
+    text-align: center;
+    padding: 40px 0;
+    background: #fff;
+    color: rgba(0, 0, 0, .8);
+    background-size: cover;
+    margin-block: 20px;
+}
+
+#quizzes .quiz-list{
+    padding: 10px 5px;
+}
+
+#quizzes .quiz-list > li{
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .8);
+    margin: 10px 0;
+    border-radius: 5px;
+    position: relative;
+    text-justify: center;
+    cursor: pointer;
+}
+
+#quizzes .quiz-list > li > ul{
+    text-align: center;
+    border-top: 2px solid #0e93d1;
+}
+
+#quizzes .quiz-list > li > ul li::before{
+    content: "👉  ";
+}
+#quizzes .quiz-list > li > ul a{
+    color: #69a2bd;
 }
